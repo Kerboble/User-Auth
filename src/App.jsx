@@ -51,7 +51,7 @@ function App() {
               <Private />
             </Protected>
           }
-        />
+        ></Route>
       </Routes>
     </BrowserRouter>
   );
