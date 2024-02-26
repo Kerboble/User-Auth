@@ -3,6 +3,7 @@ import { signOut } from 'firebase/auth';
 import { auth } from '../firebase';
 
 function Private() {
+  // Function to handle user sign-out
   async function handleSignOut() {
     try {
       await signOut(auth);
